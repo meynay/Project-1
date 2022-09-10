@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    padding-top:100px;
+}
+
+.main-division {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid black;
+    position: relative;
+}
+
+.submitted-people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-div {
+    margin-top:25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:380px;
+    align-items: center;
+}
+
+.box input {
+    height:28px;
+    width:300px;
+    padding-left: 10px;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+}
+.submit {
+    margin-bottom:200px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:65px;
+}
+
+.submit button {
+    color:white;
+    background-color: #2929ff;
+    border: none;
+    border-radius:3px;
+    padding:10px 137px;
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.submit button:hover {
+    opacity: 0.75;
+}
+
+table {
+    text-align: center;
+    margin-top: 50px;
+}
+
+table, th, td{
+    border: 1px solid #d5d5d5;
+    border-collapse: collapse;
+}
+
+.table-header{
+    background-color: #e3e3e3;
+}
+
+.age {
+    text-decoration: underline;
+}
+
+td, th {
+    padding: 10px 50px;
+}
+
+.age, .temp{
+    padding: 10px 20px;
+}
