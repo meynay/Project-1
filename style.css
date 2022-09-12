@@ -75,6 +75,10 @@ nav {
     opacity: 0.75;
 }
 
+.submit button:active {
+    opacity: 0.5;
+}
+
 table {
     text-align: center;
     margin-top: 50px;
@@ -102,10 +106,6 @@ td, th {
 }
 
 footer {
-    position: fixed;
-    bottom:0;
-    right:0;
-    left:0;
     height:105px;
     background-color: #dedede;
     display: flex;
